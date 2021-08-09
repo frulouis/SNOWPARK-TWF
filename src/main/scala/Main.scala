@@ -10,7 +10,7 @@ object Main {
     val password = props.getString("dev.password")
 
     val configs = Map (
-      "URL" -> "https://bh83160.ca-central-1.aws.snowflakecomputing.com:443",
+      "URL" -> "https://bh83.ca-central-1.aws.snowflakecomputing.com:443",
       "USER" -> "techwithfru",
       "PASSWORD" -> password ,
       "ROLE" -> "ACCOUNTADMIN",
